@@ -29,7 +29,7 @@ def handle(msg):
     print ('Received:', command)
     # Comparing the incoming message to send a reply according to it
     if command == '/hi':
-        bot.sendMessage (chat_id, str("Hi! MakerPro"))
+        bot.sendMessage (chat_id, str("Ciao da RaspyTelebot!"))
     elif command == '/time':
         bot.sendMessage(chat_id, str("Time: ") + str(now.hour) + str(":") + str(now.minute) + str(":") + str(now.second))
     elif command == '/date':
